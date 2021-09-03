@@ -1,0 +1,59 @@
+
+
+/* reset bootstrap styles */
+button:focus, input:focus { box-shadow: initial !important; }
+.btn { border-width: 0 !important; }
+.btn-close { width: 28px !important; height: 28px !important; }
+
+
+/* variables */
+:root {
+    --c-green: #274029;
+}
+.c-green { color: var(--c-green) !important; }
+.zi-top { z-index: 1000 !important; }
+.zi-offcanvas { z-index: 9999 !important; }
+.bg-blur { background-color: rgba(255,255,255,0.8) !important; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+
+
+/* font */
+body { font-family: 'Josefin Sans', sans-serif; color: black; }
+.ff-serif { font-family: 'DM Serif Display', serif; }
+
+
+/* navbar */
+.navbar-items-color { color: rgba(0,0,0,0.5) !important; transition: color .1s ease-in-out; }
+.navbar-items-color:hover { color: rgba(0,0,0,1) !important; }
+.nav-link.active { color: rgba(0,0,0,1) !important; }
+
+
+/* page */
+.cover { position: relative; }
+.cover .btn { position: absolute; right: -1rem; bottom: -3rem; }
+.cover img { height: 100vh; object-fit: cover; min-height: 576px; }
+.number span:first-child { position: relative; }
+.number span:first-child::after { content: ""; background: black; width: 1px; height: 2rem; position: absolute; right: 7px; top: 2rem; }
+.clients { margin-top: 89px; }
+
+
+/* responsive */
+@media (min-width: 767px){
+    .points { margin-left: 5vw; position: absolute; }
+    .main { width: 500px; margin-top: 11rem; }
+    .main h1 { font-size: 54px; }
+    .main p { max-width: 80%; }
+}
+
+
+/* animations */
+.menu-toggle #bottom, .menu-toggle #top { transition: transform .1s ease-in-out; }
+.menu-toggle:hover #bottom { transform: translateY(-1px); }
+.menu-toggle:hover #top { transform: translateY(1px); }
+
+
+/* offcanvas */
+.offcanvas { background-color: rgba(255,255,255,0.89) !important; backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); overflow: auto; }
+.offcanvas-top { height: fit-content; }
+.offcanvas-end { max-width: 360px; width: 100%; }
+
+
