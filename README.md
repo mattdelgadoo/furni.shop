@@ -1,5 +1,5 @@
 # furni.shop
 Sitio web responsive diseñado con Bootstrap 5 <br />
-<a href="https://mattdelgadoo.github.io/furni.shop/" target="_blank">Demo</a>
+[Demo](https://mattdelgadoo.github.io/furni.shop/) :grin:
 
-Diseño original de <a href="https://www.instagram.com/p/CSbniTclTgB/?hl=es">@arshakirpk</a>
+Diseño original de [@arshakirpk](https://www.instagram.com/p/CSbniTclTgB/?hl=es)
