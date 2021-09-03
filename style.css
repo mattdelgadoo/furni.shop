@@ -30,7 +30,7 @@ body { font-family: 'Josefin Sans', sans-serif; color: black; }
 /* page */
 .cover { position: relative; }
 .cover .btn { position: absolute; right: -1rem; bottom: -3rem; }
-.cover img { height: min(100vh, 576px); object-fit: cover; }
+.cover img { height: min(376px, 100vh); object-fit: cover; }
 .number span:first-child { position: relative; }
 .number span:first-child::after { content: ""; background: black; width: 1px; height: 2rem; position: absolute; right: 7px; top: 2rem; }
 .clients { margin-top: 89px; }
