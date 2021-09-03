@@ -17,7 +17,8 @@ button:focus, input:focus { box-shadow: initial !important; }
 
 
 /* font */
-body { font-family: 'Josefin Sans', sans-serif; color: black; min-width: 320px; scroll-behavior: smooth; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Josefin Sans', sans-serif; color: black; min-width: 320px; }
 .ff-serif { font-family: 'DM Serif Display', serif; }
 
 
